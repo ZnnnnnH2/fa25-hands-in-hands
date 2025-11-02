@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(g++:*)",
+      "Bash(./159.exe)",
+      "Bash(where:*)",
+      "Bash(C:\\msys64\\ucrt64\\bin\\g++.exe:*)",
+      "Bash(cat:*)",
+      "Bash(cmd /c:*)",
+      "Bash(powershell -Command \"& {g++ 219.cpp -o 219.exe; if (Test-Path 219.exe) { echo ''219.exe compiled''; Get-Item 219.exe | Select-Object Name,Length } }\")",
+      "Bash(/c/msys64/ucrt64/bin/g++.exe:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

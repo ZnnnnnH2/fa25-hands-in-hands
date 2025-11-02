@@ -1,0 +1,8 @@
+CompileFlags:
+  Add:
+    - -std=c++20
+    - -Wall
+    - -Wextra
+    - -Wpedantic
+# 如果你系统里有多版本编译器，防止clangd选错，可指明可用驱动：
+# Arguments:
