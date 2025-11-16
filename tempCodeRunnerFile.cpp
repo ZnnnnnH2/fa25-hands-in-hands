@@ -1,1 +1,0 @@
- printf("Found substring at position: %ld\n", ret - s1);
